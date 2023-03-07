@@ -32,7 +32,7 @@ public class Menu {
         } while (choice != exitNumber);
     }
 
-    protected static class Arguments {
+    public class Arguments {
         protected Runnable action;
         protected String description;
 
